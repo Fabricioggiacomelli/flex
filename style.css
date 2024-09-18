@@ -1,0 +1,56 @@
+img {
+    width: 120px;
+    height: 120px;
+}
+
+
+.circle {
+    border-radius: 50%;
+}
+
+
+.cat {
+    border: 5px solid #25fc09;
+}
+
+
+.camel {
+    border: 5px solid #ddd318;
+    order: -1;
+}
+
+
+.horse {
+    border: 5px solid #ee0b0b;;
+}
+
+
+.animais
+{
+    display: flex;
+    justify-content: center;
+    
+    /*height: 97vh serve para aumentar a div*/
+    height: 97vh;
+
+    /*align-items: center;
+    justify-content: center;*/
+
+    /*flex-direction: column;
+    justify-content: center;
+    align-items: center;*/
+
+
+    width: 50%;
+    flex-wrap: wrap; /*serve para "quebrar" as linhas*/
+    align-content: flex-start;
+
+    background-color: blue;
+
+}
+
+main
+{
+    display: flex;
+    justify-content: center;
+}
